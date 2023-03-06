@@ -7,7 +7,7 @@
         Console.Write("Deseja ver a tabuada do: ");
         if (!int.TryParse(Console.ReadLine(), out digito))
         {
-            Console.WriteLine("Número diferente de inteiro!");
+            Console.WriteLine("Número diferente de inteiro!!");
         }
         else if (digito > 1 && digito < 10)
         {
